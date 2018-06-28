@@ -1,33 +1,73 @@
-.navi{
-  background: linear-gradient(to right,rgba(255,80,34,.8), rgba(255,48,84,.8));
-  height: 75px;
-  /* width: 1380px; */
-  position: fixed;
-  top: 0;
-  padding-left: 20px;
-  padding-top: 7px;
-  color: rgba(255,255,255,1);
-  text-decoration: none;
+.background{
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/ToDo2.png);
+  background-position: center;
+  background-size: 50% 100vh;
 }
-.foot{
-  background: linear-gradient(to right,rgba(255,80,34,.8), rgba(255,48,84,.8));
-  height: 75px;
-  /* width: 1380px; */
-  position: fixed;
-  bottom: 0;
+.darkmode{
+  background-color: rgba(10,10,10,1);
 }
-.section1{
-  height: 600px;
-  border-top-color: rgba(255,255,255,.8);
-  border-bottom-color: rgba(255,255,255,.8);
-}
-.red{
-  background: rgba(255,0,80,.8)
-}
-.orange{
-  background: rgba(255,80,30,1)
+.lightmode{
+  background-color: rgba(255,255,255,1);
 }
 .logo{
-  height: 60px;
-  width: 60px;
+  font-size: 60px
+}
+.addTD{
+  font-size: 120px;
+}
+.centered{
+  align-content: center;
+}
+.right-text{
+  text-align: right;
+}
+.centered-text{
+  text-align: center;
+}
+.padding1{
+  padding: 10px
+}
+.border1{
+  border: 5px;
+  border-color: rgba(255,255,255,1);
+}
+.righteous{
+  font-family: 'Righteous', cursive;
+}
+.margintop{
+  margin-top: 20px;
+}
+.my-btn{
+  color: rgba(200,200,200,1);
+  background: none;
+  border-color: rgba(100,100,100,1);
+  border-style: solid;
+}
+.add-btn{
+  border: 5px solid rgba(100,100,100,1);
+  border-radius: 120px;
+  background: none;
+  width: 183px;
+}
+.the-todo-text{
+  font-size: 24px;
+  margin: 10px;
+}
+.deleteBtn{
+  background: none;
+  border-radius: 12.5px;
+  height: 25px;
+  border-width: 3px;
+  border-style: solid;
+  width: 100%;
+}
+.editBtn{
+  background: none;
+  border-radius: 12.5px;
+  height: 25px;
+  border-width: 3px;
+  border-style: solid;
+  width: 100%;
 }
